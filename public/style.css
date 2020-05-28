@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.head {
+    border-bottom: 2px solid grey;
+    box-shadow: 2px 2px 2px;
+}
+
+.header-img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin: 0.5% 0.5%;
+    border: 2px solid rgb(147, 147, 147);
+}
+.navbar {
+    display: flex;
+    font-family: sans-serif;
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+    list-style: none;
+}
+.navbar li a {
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+#logo {
+    float: right;
+    margin: 1% 1%;
+    height: 45px;
+    width: 45px;
+}
+
+/* FRIENDS */
+
+.friends {
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+}
+
+.accept {
+    grid-row: 1;
+    height: 240px;
+    padding-top: 10px;
+    background: #f5fffa;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px;
+
+    border-radius: 5px;
+    width: 170px;
+    text-align: -webkit-center;
+    margin-right: 1%;
+
+}
+.wannabes {
+    height: 240px;
+    width: 170px;
+    padding-top: 10px;
+    background: #f5fffa;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px;
+
+    border-radius: 5px;
+    text-align: -webkit-center;
+    margin-top: 18%;
+    margin-right: 1%;
+}
+
+.friends img {
+    height: 130px;
+    width: 130px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px;
+}
+
+#friends button {
+    margin-top: 5%;
+}
+
+.friendship-button {
+    height: 25px;
+    margin-top: 10%;
+    width: 70%;
+    box-shadow: 2px 2px 2px;
+}
+
+.name-friends {
+    font-family: sans-serif;
+    padding: 3px 2px;
+    font-size: 14px;
+    text-transform: capitalize;
+    width: 190px;
+}
+/* END OF FRIENDS */
+
+/* REGISTRATION AND LOGIN */
+.registration {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+    background-image: url("friends.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100vw 500px;
+    background-position: bottom;
+}
+.login {
+    background-image: url("friends.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 500px;
+    background-position: bottom;
+    height: 100vh;
+    width: 100vw;
+}
+
+.fields {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 5px;
+    padding: 65px 45px;
+    width: 300px;
+    margin-left: 39%;
+    margin-top: 6%;
+}
+input {
+    width: 170px;
+    height: 25px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border: 1px solid black;
+}
+button {
+    width: 80px;
+    margin: 10px 0px;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px;
+}
+/* END OF REGISTRATION AND LOGIN */
+
+/* PROFILE CONTAINER */
+.profile-pic {
+    margin-right: 1%;
+    height: 190px;
+    width: 190px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px;
+    margin-bottom: 5%;
+}
+.container {
+    margin-left: 1%;
+    margin-top: 1%;
+    padding-top: 3%;
+    width: 220px;
+    height: 95vh;
+    border-right: 1px solid rgb(147, 147, 147);
+    box-shadow: 1px 1px 1px;
+}
+
+/* PROFILE BAR */
+.name {
+    font-family: sans-serif;
+    padding: 3px 2px;
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 190px;
+    text-align: center;
+}
+.edit {
+    width: 65px;
+    height: 20px;
+}
+.save {
+    margin-top: -3%;
+    background: none;
+}
+.textarea {
+    height: 90px;
+}
+.bio {
+    font-family: sans-serif;
+    padding: 2% 2%;
+    background: white;
+    color: white;
+    font-size: 14px;
+    background: #00aaf2;
+    font-weight: 100;
+}
+.bio-container {
+    width: 190px;
+    height: 100%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px;
+    background: white;
+    border-radius: 2px;
+    background: #00aaf2;
+}
+
+/*END PROFILE BAR */
+
+/* OTHER USERS PAGE */
+.other-users-img {
+    height: 130px;
+    width: 130px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px;
+}
+
+.name-friends {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    width: 190px;
+}
+
+/* CHAT PAGE */
+.chat {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.onlineUsers-container {
+    box-shadow: 2px 2px ;
+
+    border: 1px solid rgb(147, 147, 147);
+    border-radius: 5px;
+    position: fixed;
+    right: 0;
+    top: 180px;
+    height: 170px;
+    width: 150px;
+    overflow: auto;
+}
+.chat-online-div{
+    display: flex;
+    padding: 3px 0px;
+    margin-left: 2%;
+}
+#green{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 4px solid green;
+    color:green;
+    margin-bottom: 4px;
+}
+.chat-container {
+    border: 2px solid black;
+    height: 430px;
+    width: 350px;
+    overflow: scroll;
+    border-radius: 2px;
+    box-shadow: 1px 1px ;
+}
+textarea {
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-bottom: 2%;
+    height: 100px;
+    width: 350px;
+    box-shadow: 1px 1px ;
+
+}
+.chat-img {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin-top: 3px;
+}
+.name-friends-chat {
+    font-size: 10px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.chat-message-div {
+    display: flex;
+    padding: 3px 0px;
+    margin-left: 2%;
+    border: 1px solid black;
+}
+.name-img {
+    width: 90px;
+}
+.chat-message {
+    width: 150px;
+    font-size: 12px;
+    font-family: sans-serif;
+    align-self: flex-end;
+}
+h6 {
+    margin-left: auto;
+}
+/* CHAT PAGE END */
+
+
+/* SEARCH FRIENDS */
+
+#search-for-friends{
+    font-size: 16px;
+}
+
+.search-users{
+    margin-top: 1% ;
+    margin-left: 1%;
+}
+
+
+/* SEARCH FRIENDS END*/

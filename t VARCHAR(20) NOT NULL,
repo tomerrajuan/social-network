@@ -1,0 +1,5 @@
+ id | first |  last  |      email      |                           password                           |                                   url                                    |         created_at         
+----+-------+--------+-----------------+--------------------------------------------------------------+--------------------------------------------------------------------------+----------------------------
+  1 | tomer | rajuan | tomer@gmail.com | $2a$10$g9Suy1j7ZmieS0IjMTf4V.63y88IbdNEz6HhPlGH5aCPTbfv3K6Di | https://s3.amazonaws.com/spicedling/Yk4llnevF7X6U69XSzEoX6-wb4yqpwvu.jpg | 2019-11-28 14:27:10.026467
+(1 row)
+
