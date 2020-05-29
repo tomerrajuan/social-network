@@ -8,7 +8,6 @@ function Welcome() {
     return (
         <div className="welcome">
             <div>
-                <img id="logo" src="/logo.png" width="100px" height="100px" />
                 <HashRouter>
                     <div>
                         <Route exact path="/" component={Register} />

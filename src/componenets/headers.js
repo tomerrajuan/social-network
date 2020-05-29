@@ -16,7 +16,6 @@ export class Header extends React.Component {
                     <img className="header-img" src={this.props.imgUrl} />
                 </a>
                 <a href="/welcome">
-                    <img id="logo" src="/logo.png" alt="logo" />
                 </a>
             </div>
         );

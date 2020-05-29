@@ -1,18 +1,21 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: "Nunito";
+
 }
 .head {
-    border-bottom: 2px solid grey;
-    box-shadow: 2px 2px 2px;
+    border-bottom: 1px solid;
+    background-color: rgb(180, 14, 22);
+
 }
 
 .header-img {
-    height: 65px;
-    width: 65px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
-    margin: 0.5% 0.5%;
-    border: 2px solid rgb(147, 147, 147);
+    margin: 0.5vh 0.5%;
+    object-fit: cover;
 }
 .navbar {
     display: flex;
@@ -100,35 +103,46 @@
 /* END OF FRIENDS */
 
 /* REGISTRATION AND LOGIN */
-.registration {
+.registration, .login{
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
     background-image: url("friends.jpg");
     height: 100vh;
     width: 100vw;
-    background-repeat: no-repeat;
-    background-size: 100vw 500px;
-    background-position: bottom;
-}
-.login {
-    background-image: url("friends.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 500px;
-    background-position: bottom;
-    height: 100vh;
-    width: 100vw;
+    background-size: 100vw;
 }
 
+
 .fields {
-    position: absolute;
+    background-color: white;
+    opacity: 0.9;
+    box-shadow: 2px 2px 2px white;
+    margin-top: 20vh;
+    align-self: center;
     display: flex;
     flex-direction: column;
-    border: 1px solid grey;
-    box-shadow: 2px 2px 2px 2px;
     border-radius: 5px;
-    padding: 65px 45px;
+    padding: 15px 45px;
     width: 300px;
-    margin-left: 39%;
-    margin-top: 6%;
+    height: 300px;
+}
+.fields h1{
+    font-size: 18px;
+    align-self: center;
+    margin-bottom: 3vh;
+}
+.fields a{
+    font-size: 14px;
+    align-self: center;
+}
+.fields input{
+    border:1.2px solid;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    height: 26px;
+    width: 100%;
+    padding: 5px;
 }
 input {
     width: 170px;
@@ -151,9 +165,10 @@ button {
     margin-right: 1%;
     height: 190px;
     width: 190px;
-    border: 2px solid black;
-    box-shadow: 3px 3px 3px;
+    border: 1px solid black;
     margin-bottom: 5%;
+    object-fit: cover;
+
 }
 .container {
     margin-left: 1%;
@@ -191,17 +206,18 @@ button {
     background: white;
     color: white;
     font-size: 14px;
-    background: #00aaf2;
+    background-color: rgb(180, 14, 22);
+
     font-weight: 100;
 }
 .bio-container {
     width: 190px;
     height: 100%;
     border: 1px solid black;
-    box-shadow: 2px 2px 2px;
     background: white;
     border-radius: 2px;
-    background: #00aaf2;
+    background-color: rgb(180, 14, 22);
+
 }
 
 /*END PROFILE BAR */
